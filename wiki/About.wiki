@@ -19,6 +19,8 @@ Type 0:- Blind SQL Injection based on true and false conditions returned by back
 
 Type 1:- Blind SQL Injection based on true and error(e.g syntax error) returned by back-end server.
 
+The type 1 mode of attack has been described in detail here:- http://www.notsosecure.com/folder2/2008/05/26/if-query-data-manipulation/
+
 Usage example:
 $./bsqlbf-v2.pl -url http://192.168.1.1/injection_string_post/1.asp?p=1 -method post -match true -database 0 -sql "select top 1 name from sysobjects where xtype='U'"
 
