@@ -27,4 +27,5 @@ $./bsqlbf-v2.pl -url http://192.168.1.1/injection_string_post/1.asp?p=1 -method 
 = Details =
 
 This tool is released under the lincense:-http://sam.zoy.org/wtfpl/
+
 Send feedback/suggestions to sid-at-notsosecure-dot-com
